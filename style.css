@@ -17,7 +17,7 @@ html{
 .principal-container{
   width: 100vw;
   height: 100vh;
-  padding: 90px;
+  padding: 60px;
 }
 .top-section{
   width: 100%;
@@ -42,6 +42,9 @@ html{
   margin-top: 20px;
   padding-left: 150px;
   width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .rated-container{
   display: flex;
@@ -55,11 +58,11 @@ html{
   margin-bottom: 12px;
   border-radius: 4px;
 }
-.rated-container:nth-child(2){
-  margin-left: 32px;
+.rated-container:nth-child(1){
+  margin-right: 64px;
 }
-.rated-container:nth-child(3){
-  margin-left: 64px;
+.rated-container:nth-child(2){
+  margin-right: 32px;
 }
 .stars img{
   margin: 0 1px;
@@ -69,4 +72,59 @@ html{
   font-size: 1.1rem;
   font-weight: bold;
   color: var(--Very-Dark-Magenta);
+}
+
+.bottom-section{
+  height: 50%;
+  display: flex;
+  margin-left: 20px;
+}
+.opinions{
+  width: 30%;
+  height: 100%;
+  background-color: var(--Very-Dark-Magenta);
+  border-radius: 8px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0px;
+}
+.opinions div{
+  display: flex;
+  width: 80%;
+  justify-content: left;
+  align-items: center;
+}
+.opinions div img{
+  width: 13%;
+  border-radius: 50%;
+  margin-right: -40px;
+}
+.opinion-2{
+  margin-top: 16px;
+}
+.opinion-3{
+  margin-top: 32px;
+}
+.name-veri{
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  color: var(--White);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  /* display: block; */
+} 
+.verified{
+  color: var(--Soft-Pink);
+  font-size: 1.2rem;
+}
+.opinion{
+  color: var(--White);
+  font-size: 1.3rem;
+  margin-top: 20px;
 }
