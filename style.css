@@ -17,7 +17,7 @@ html{
 .principal-container{
   width: 100vw;
   height: 100vh;
-  padding: 100px;
+  padding: 90px;
 }
 .top-section{
   width: 100%;
@@ -26,7 +26,7 @@ html{
   display: flex;
 }
 .left-paragraph{
-  width: 35%;
+  width: 45%;
 }
 .left-paragraph p:nth-child(1){
   font-size: 4rem;
@@ -35,26 +35,38 @@ html{
   margin-bottom: 4px;
 }
 .left-paragraph p:nth-child(2){
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .rigth-paragraph{
   /* background-color: red; */
+  margin-top: 20px;
   padding-left: 150px;
-  /* background-color: red; */
-  width: 50%;
+  width: 75%;
 }
-.rigth-paragraph div{
+.rated-container{
   display: flex;
   padding: 12px 20px;
   align-items: center;
-  width: 80%;
+  justify-content: space-evenly;
+  width: 65%;
+  height: 40px;
   /* justify-content: center; */
   background-color: var(--Light-Grayish-Magenta);
   margin-bottom: 12px;
+  border-radius: 4px;
 }
-.rigth-paragraph div:nth-child(2){
-  margin-left: 16px;
-}
-.rigth-paragraph div:nth-child(3){
+.rated-container:nth-child(2){
   margin-left: 32px;
+}
+.rated-container:nth-child(3){
+  margin-left: 64px;
+}
+.stars img{
+  margin: 0 1px;
+  width: 13%;
+}
+.rigth-paragraph div p{
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--Very-Dark-Magenta);
 }
