@@ -25,6 +25,7 @@ html{
   height: 50%;
   /* background-color: red; */
   display: flex;
+  padding-top: 50px;
 }
 .left-paragraph{
   width: 45%;
